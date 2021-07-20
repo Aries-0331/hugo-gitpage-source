@@ -1,7 +1,7 @@
 ---
 title: "Git修改commit信息"
 date: 2021-07-20T15:19:14+08:00
-draft: true
+draft: false
 tags: [git]
 categories: [git]
 ---
