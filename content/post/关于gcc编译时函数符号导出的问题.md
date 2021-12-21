@@ -2,7 +2,6 @@
 title: "关于gcc编译时函数符号导出的问题"
 date: 2021-07-06T22:26:17+08:00
 draft: false
-tags: [gcc]
 categories: [compile]
 ---
 

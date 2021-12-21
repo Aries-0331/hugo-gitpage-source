@@ -2,7 +2,6 @@
 title: "logcat日志读取流程分析"
 date: 2021-07-06T22:30:30+08:00
 draft: false
-tags: [android]
 categories: [android]
 ---
 

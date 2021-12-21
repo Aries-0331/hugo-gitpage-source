@@ -2,7 +2,6 @@
 title: "TCP与粘包问题"
 date: 2021-07-06T22:26:31+08:00
 draft: false
-tags: [tcp]
 categories: [tcp]
 ---
 
