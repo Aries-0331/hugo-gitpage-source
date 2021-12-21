@@ -2,8 +2,8 @@
 title: "logcat日志读取流程分析"
 date: 2021-07-06T22:30:30+08:00
 draft: false
-tags: [android, logcat]
-categories: [Android]
+tags: [android]
+categories: [android]
 ---
 
 logcat 通过读 **/dev/socket/logd** 套接字节点，以从 **logd** 进程中获取信息。

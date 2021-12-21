@@ -2,8 +2,8 @@
 title: "HTTPS与HTTP"
 date: 2021-07-06T22:28:02+08:00
 draft: false
-tags: [protocol, https, http, tls]
-categories: [计算机网络, 密码]
+tags: [network, tls]
+categories: [tls]
 ---
 
 >  概念上理清 HTTPS 与 HTTP 的区别。

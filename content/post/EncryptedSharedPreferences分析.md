@@ -3,7 +3,7 @@ title: "EncryptedSharedPreferences分析"
 date: 2021-07-06T22:28:23+08:00
 draft: false
 tags: [android, crypto]
-categories: [加密, Android]
+categories: [crypto, android]
 ---
 
 EncryptedSharedPreferenes 是 androidx 下安全组件中的加密类，实现`SharedPreferences`的键值对加密。

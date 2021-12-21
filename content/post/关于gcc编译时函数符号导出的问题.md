@@ -3,7 +3,7 @@ title: "关于gcc编译时函数符号导出的问题"
 date: 2021-07-06T22:26:17+08:00
 draft: false
 tags: [gcc]
-categories: [编译原理]
+categories: [compile]
 ---
 
 背景：在 Android P liblog 模块中增加一个功能，涉及外部函数调用。如在 `A.c` 中定义函数 `fun`，在 `A.h` 中声明函数 `fun`，在 `B.c` 中包含 `A.h` 后调用 `fun`，文件名、路径等均没有问题，但编译时会触发 `error:undefined reference to `。

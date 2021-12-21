@@ -2,8 +2,8 @@
 title: "TCP与粘包问题"
 date: 2021-07-06T22:26:31+08:00
 draft: false
-tags: [tcp, protocol]
-categories: [计算机网络]
+tags: [tcp]
+categories: [tcp]
 ---
 
 **TCP 没有粘包问题**。搜索引擎中列出的各种关于“TCP 粘包问题”的文章，所讲的其实是采用 TCP 传输数据的应用层协议设计不合理导致的粘包问题，并不是 TCP 的锅。
