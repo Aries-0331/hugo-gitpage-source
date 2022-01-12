@@ -25,6 +25,8 @@ xlog 使用微型加密算法（TEA，Tiny Encryption Algorithm）对日志数�
 3. `client` 获取`server` 公钥 `pubKeyB` ，调用 `uECC_shared_secret` 生成对称密钥 `secret`；（此处采用 ECDH 密钥交换算法）
 4. `server` 获取`client` 公钥 `pubKeyA` ，调用 `uECC_shared_secret` 生成对称密钥 `secret`；
 
+<!--more-->
+
 ### ECDH 密钥交换算法原理概述
 
 ECDH 基于 ECC 算法，ECC 是建立在基于椭圆曲线的离散对数问题上的密码体制，给定椭圆曲线上的一个点 P，一个整数 k，求解 Q = kP 很容易，但给定一个点 P、一个点Q，求解 k 很难。ECDH 便建立在该数学难题上。

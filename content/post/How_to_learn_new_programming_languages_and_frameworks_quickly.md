@@ -11,6 +11,8 @@ categories: [read]
 
 Here are some of the top answers summarized.
 
+<!--more-->
+
 - For a new programming language, there are a couple of standard things you should try to implement.
 
   Write several programs where you

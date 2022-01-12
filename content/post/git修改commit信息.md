@@ -19,3 +19,4 @@ categories: [git]
 ps:如果想修改第一次commit的信息，则步骤1中参数 commit id 改为 --root，即 git rebase -i --root
 ```
 
+<!--more-->

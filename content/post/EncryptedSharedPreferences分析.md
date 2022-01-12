@@ -7,13 +7,6 @@ categories: [crypto, android]
 
 EncryptedSharedPreferenes 是 androidx 下安全组件中的加密类，实现`SharedPreferences`的键值对加密。
 
-对它的分析，主要涉及以下几点：
-
-- 密钥管理
-- 加密算法
-- 工程实现
-- 源码分析
-
 开发者文档中提供了`SharedPreferences`加密键值对的实例代码，其中使用`MasterKeys`来进行密钥管理，而在 [MasterKeys](https://developer.android.com/reference/androidx/security/crypto/MasterKeys?hl=zh-cn) 的文档中提示该类已废弃，应使用`MasterKey.Builder`来管理主密钥（版本说明：基于 Jetpack Security 1.1.0-alpha01），示例如下
 
 ```java
@@ -35,6 +28,8 @@ EncryptedSharedPreferenes 是 androidx 下安全组件中的加密类，实现`S
          EncryptedSharedPreferences.PrefKeyEncryptionScheme.AES256_SIV,
          EncryptedSharedPreferences.PrefValueEncryptionScheme.AES256_GCM);
 ```
+
+<!--more-->
 
 ### 密钥管理
 
