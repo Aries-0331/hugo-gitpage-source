@@ -2,7 +2,7 @@
 title: "关于QUIC Crypto"
 date: 2022-11-04T17:13:59+08:00
 draft: false
-categories: [crypto][quic]
+categories: [crypto, quic]
 ---
 
 # 简要介绍
