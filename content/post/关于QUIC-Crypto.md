@@ -1,3 +1,11 @@
+---
+title: "关于QUIC Crypto"
+date: 2022-11-04T17:13:59+08:00
+draft: false
+tags: []
+categories: [crypto][quic]
+---
+
 # 简要介绍
 
 QUIC（Quick UDP Internet Connections）是一种默认加密的互联网传输协议，旨在提供安全、快速的 HTTP 传输，以替代 TCP 和 TLS。Google QUIC 的默认加密协议是自家的 QUIC Crypto。
