@@ -11,7 +11,7 @@ QUIC（Quick UDP Internet Connections）是一种默认加密的互联网传输�
 
 QUIC 与 TCP 的根本不同在于默认提供安全传输的设计原则。最初的 QUIC 结合了 TCP 的三次握手以及 TLS 1.3 的握手，并将 TLS的记录层数据帧格式替换为 QUIC 自己的，同时保留了 TLS 的握手消息。这种做法既保证了连接总是经过认证和加密的，同时使得初始连接建立速度更快。TCP 和 TLS1.3 完成握手需要两轮交互，而 QUIC 握手仅需一轮，如果客户端缓存了服务端的配置信息，那么甚至无需握手。
 
-<img src="https://blog.cloudflare.com/content/images/2018/07/http-request-over-tcp-tls@2x.png" width="400"><img src="https://blog.cloudflare.com/content/images/2018/07/http-request-over-quic@2x.png" width="500">
+<div align=center><img src="https://blog.cloudflare.com/content/images/2018/07/http-request-over-tcp-tls@2x.png" width="600"><img src="https://blog.cloudflare.com/content/images/2018/07/http-request-over-quic@2x.png" width="600">
 
 # 协商成本对比
 
@@ -56,7 +56,7 @@ QUIC 的协商过程可以简单总结出三个要点：
 - 初次建立连接时的 client hello 其实就是个空的消息，目的就是从 server 获取包含最新 `server config` 的REJ(ect)消息，获取到后会重新发起正式的 client hello；
 - server hello 是包含临时密钥的加密消息；
 
-<img src="https://lh4.googleusercontent.com/DLKsceJfawl4pkbWeaTx69tgW97gG4TQ3BNWBPF3YgtqbkKhHmzgSyL7iajoAibBW9qRx7DcJiCwF2dGZngMFRI3pylhbttoRKZ6LLvQEJuvRepn8gOeya9FrfYd_PvVGRswL6uQCexAimZZdBuUwI5ttPH_mo-i2bVKQFxu9jMosswjo2e4FQvn0YHq" width=500>
+<div align=center><img src="https://lh4.googleusercontent.com/DLKsceJfawl4pkbWeaTx69tgW97gG4TQ3BNWBPF3YgtqbkKhHmzgSyL7iajoAibBW9qRx7DcJiCwF2dGZngMFRI3pylhbttoRKZ6LLvQEJuvRepn8gOeya9FrfYd_PvVGRswL6uQCexAimZZdBuUwI5ttPH_mo-i2bVKQFxu9jMosswjo2e4FQvn0YHq" width=500>
 
 - 首次连接
 
@@ -80,7 +80,7 @@ QUIC 的协商过程可以简单总结出三个要点：
 
 
 
-<img src="https://cryptologie.net/upload/sm1.png" width=800>
+<div align=center><img src="https://cryptologie.net/upload/sm1.png" width=800>
 
 从握手的状态图可以很快做出判断，TLS 比 QUIC 复杂好多。TLS 是一个相对可靠、完善的协议，但同时由于版本迭代较多，大量历史遗留问题导致其架构、接口、用例非常复杂，如果不考虑历史包袱等兼容性问题，应该可以设计出更优雅的“TLS”。
 
@@ -125,3 +125,5 @@ TLS 的证书链是按照源文件大小直接传递的，在握手阶段占大�
 [QUIC Crypto and simple state machines](https://cryptologie.net/article/446/quic-crypto-and-simple-state-machines/)
 
 [The Illustrated TLS 1.3 Connection](https://tls13.xargs.org/)
+
+<!--more-->
