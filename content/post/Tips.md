@@ -11,9 +11,10 @@ categories: [tips]
 ```
 1.cd ~/.ssh
 2.ssh-keygen -t ed25519  -C  username //创建 ssh 密钥对，按照提示创建文件名(eg:filename)
-3.ssh-add filename
-4.复制 filename.pub 中的内容
-5.粘贴至 Git 仓库的 Settings--Deploy Keys--Add deploy key 中
+3.eval `ssh-agent -s`
+4.ssh-add filename
+5.复制 filename.pub 中的内容
+6.粘贴至 Git 仓库的 Settings--Deploy Keys--Add deploy key 中
 ```
 
 
