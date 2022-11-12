@@ -1,7 +1,7 @@
 ---
 title: "Tips"
 date: 2022-11-11T16:21:12+08:00
-draft: true
+draft: false
 categories: [tips]
 
 ---
