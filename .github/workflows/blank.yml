@@ -27,7 +27,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.HUGOPUBLIC }}
-          external_repository: urchinzhou/hugo-gitpage-public
+          external_repository: Aries-0331/hugo-gitpage-public
           publish_branch: master
           publish_dir: ./public
 
