@@ -2,8 +2,7 @@
 title: "HTML Introduction"
 date: 2023-06-21T18:00:12+08:00
 draft: true
-tags: [Web][HTML][AIGC]
-categories: [Web]
+categories: [Web, AIGC]
 ---
 
 > This blog is an attempt to generate with ai.
