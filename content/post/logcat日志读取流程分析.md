@@ -9,8 +9,6 @@ logcat 通过读 **/dev/socket/logd** 套接字节点，以从 **logd** 进程�
 
 在 `/logcat/logcat.cpp` 的 `__logcat` 方法中调用 `android_logger_list_read`
 
-<!--more-->
-
 ```java
 static int __logcat(android_logcat_context_internal* context) {
 ......

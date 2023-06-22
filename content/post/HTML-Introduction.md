@@ -24,8 +24,6 @@ HTML Essentials: HTML employs tags to define elements and organize information o
 
 Building Your Web Page: To begin creating your own web page, follow these steps:
 
-<!--more-->
-
 1. Open a text editor and create a new file.
 2. Start with the `<html>` tag and include the necessary `<head>` and `<body>` tags.
 3. Utilize various HTML tags within the `<body>` tag to add content.
