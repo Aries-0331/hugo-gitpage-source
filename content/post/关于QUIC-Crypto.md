@@ -12,8 +12,8 @@ QUIC（Quick UDP Internet Connections）是一种默认加密的互联网传输�
 QUIC 与 TCP 的根本不同在于默认提供安全传输的设计原则。最初的 QUIC 结合了 TCP 的三次握手以及 TLS 1.3 的握手，并将 TLS的记录层数据帧格式替换为 QUIC 自己的，同时保留了 TLS 的握手消息。这种做法既保证了连接总是经过认证和加密的，同时使得初始连接建立速度更快。TCP 和 TLS1.3 完成握手需要两轮交互，而 QUIC 握手仅需一轮，如果客户端缓存了服务端的配置信息，那么甚至无需握手。
 
 <div align=center>
-<img src="https://blog.cloudflare.com/content/images/2018/07/http-request-over-tcp-tls@2x.png" width="600">
-<img src="https://blog.cloudflare.com/content/images/2018/07/http-request-over-quic@2x.png" width="600">
+<img src="https://github.com/Aries-0331/pic/blob/master/http-request-over-tcp-tls@2x.png?raw=true" width="600">
+<img src="https://github.com/Aries-0331/pic/blob/master/http-request-over-quic@2x.png?raw=true" width="600">
 </div>
 
 # 协商成本对比

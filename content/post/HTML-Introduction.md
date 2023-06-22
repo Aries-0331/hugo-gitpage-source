@@ -24,6 +24,8 @@ HTML Essentials: HTML employs tags to define elements and organize information o
 
 Building Your Web Page: To begin creating your own web page, follow these steps:
 
+<!--more-->
+
 1. Open a text editor and create a new file.
 2. Start with the `<html>` tag and include the necessary `<head>` and `<body>` tags.
 3. Utilize various HTML tags within the `<body>` tag to add content.
@@ -33,3 +35,4 @@ Building Your Web Page: To begin creating your own web page, follow these steps:
 Expanding Your Knowledge: While HTML lays the foundation for web content, CSS (Cascading Style Sheets) and JavaScript enhance styling and interactivity, respectively. To continue your web development journey, explore these topics in greater depth. Leverage online resources, tutorials, and practical projects to strengthen your understanding.
 
 Conclusion: Congratulations on taking your first steps into the captivating realm of web technology! Armed with HTML fundamentals, you are on the path to becoming a proficient frontend web developer. Embrace continuous learning, stay curious, and adapt to the ever-evolving web technology landscape. Happy coding!
+
