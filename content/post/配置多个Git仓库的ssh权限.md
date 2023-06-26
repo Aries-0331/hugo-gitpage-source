@@ -40,5 +40,3 @@ url = git@repo1.github.com:username/repo1.git
 ## Failed to connect to github.com port 443: Timed out
 
 将 .git/config 文件中的 https url 修改为 Git 仓库的 ssh rul。
-
-<!--more-->
