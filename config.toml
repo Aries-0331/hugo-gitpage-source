@@ -231,5 +231,5 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 #  taxonomyTerm = ["HTML"]
 
 [taxonomies]
-  tag = "tags"
+  # tag = "tags"
   category = "categories"
