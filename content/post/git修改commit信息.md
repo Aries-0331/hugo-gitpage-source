@@ -1,5 +1,5 @@
 ---
-title: "Git修改commit信息"
+title: "Git 修改 commit 信息"
 date: 2021-07-20T15:19:14+08:00
 draft: false
 categories: [git]

@@ -2,7 +2,7 @@
 title: "JavaScript Basic Summarize"
 date: 2024-01-30T15:48:57+08:00
 draft: false
-categories: []
+categories: [javascript]
 ---
 
 Typically something that are easy to forget or misunderstand.

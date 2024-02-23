@@ -1,8 +1,8 @@
 ---
-title: "A Glance at JavaScript"
+title: "About JavaScript"
 date: 2023-06-24T10:53:48+08:00
 draft: false
-categories: [AIGC]
+categories: [javascript]
 ---
 
 Introduction:
