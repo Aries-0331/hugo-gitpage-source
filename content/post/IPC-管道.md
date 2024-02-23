@@ -1,7 +1,7 @@
 ---
 title: "IPC 管道"
 date: 2024-02-23T13:28:32+08:00
-draft: true
+draft: false
 categories: [linux]
 ---
 
