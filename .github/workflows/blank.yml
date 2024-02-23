@@ -1,9 +1,9 @@
-
 name: hugo CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -12,13 +12,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: true 
-          fetch-depth: 1   
+          submodules: true
+          fetch-depth: 1
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: "latest"
           extended: true
 
       - name: Build
@@ -31,4 +31,3 @@ jobs:
           external_repository: Aries-0331/hugo-gitpage-public
           publish_branch: master
           publish_dir: ./public
-
