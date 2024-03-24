@@ -1,8 +1,8 @@
 ---
-title: "SQLCipher替代SQLite"
+title: "SQLCipher"
 date: 2021-07-13T22:27:48+08:00
 draft: false
-categories: [android]
+tags: [sqlcipher, android]
 ---
 
 SQLCipher 是基于 SQLite 的安全扩展，加解密行为对应用层透明，可使用标准 SQLite API 执行数据库操作，移植简单，以页为单位进行加解密操作，效率高，开销比 SQLite 多 5% 左右。
@@ -14,8 +14,6 @@ SQLCipher 是基于 SQLite 的安全扩展，加解密行为对应用层透明�
 - 以页为单位加解密，默认页大小 4096 Bytes，可调整优化；
 - 对每一页写的时候，文末会附带消息验证码，用于读取时校验；
 - 加密算法由 OpenSSL libcrypto 等开源库支持；
-
-<!--more-->
 
 ### 业务流程
 

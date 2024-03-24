@@ -1,8 +1,8 @@
 ---
 title: "Go Basic - Interface as Parameter to Function"
-date: 2023-06-29T17:50:27+08:00
+date: 2023-04-06T17:50:27+08:00
 draft: false
-categories: [go]
+tags: [go]
 ---
 
 > https://stackoverflow.com/questions/20314604/go-syntax-and-interface-as-parameter-to-function

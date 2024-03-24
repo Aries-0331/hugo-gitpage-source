@@ -1,9 +1,8 @@
 ---
 title: "VSCode 安装 Go 相关工具失败"
-date: 2023-06-26T17:37:07+08:00
+date: 2023-02-26T17:37:07+08:00
 draft: false
-categories: [vscode, go]
-
+tags: [vscode, go]
 ---
 
 ```
@@ -36,7 +35,7 @@ golang.org/x/mod/semver
 ...
 
 go get golang.org/x/tools/gopls: copying /var/folders/gq/bwl3jmx562x5twchgxvb6mlh0000gn/T/go-build703164122/b001/exe/a.out: open /usr/local/go/bin/gopls: permission denied
- no output 
+ no output
 ```
 
 可考虑开启 Go Module 模式，并设置代理
@@ -52,6 +51,6 @@ GO111MODULE 是一个用于改变 Go 包引入方式的环境变量，在不同 
 
 # Ref
 
->https://l2m2.top/2020/05/26/2020-05-26-fix-golang-tools-failed-on-vscode/
+> https://l2m2.top/2020/05/26/2020-05-26-fix-golang-tools-failed-on-vscode/
 >
->https://stackoverflow.com/questions/66668506/how-to-solve-vs-code-gopls-command-is-not-available
+> https://stackoverflow.com/questions/66668506/how-to-solve-vs-code-gopls-command-is-not-available

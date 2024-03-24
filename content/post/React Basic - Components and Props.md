@@ -1,8 +1,8 @@
 ---
-title: "React Basic   Components and Props"
-date: 2024-02-05T15:58:02+08:00
-draft: true
-categories: [react]
+title: "React Components and Props"
+date: 2020-02-05T15:58:02+08:00
+draft: false
+tags: [react]
 ---
 
 # Components

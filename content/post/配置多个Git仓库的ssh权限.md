@@ -1,14 +1,11 @@
 ---
 title: "在新环境中配置多 Git 仓库的 ssh 权限"
-date: 2022-11-11T16:21:12+08:00
+date: 2020-11-11T16:21:12+08:00
 draft: false
-categories: [Git]
-
+tags: [Git]
 ---
 
 # 配置多个 Git 仓库的 ssh 权限
-
-
 
 1. 跳转至 ssh 配置路径，通常默认为 `~/.ssh`
 2. 创建 ssh 密钥对，按照提示创建文件名（eg:repo1-deploy-key、repo2-deploy-key），简易命令用 `./ssh-keygen` 即可，默认创建 rsa 密钥对，也可以通过参数自定义，例如 `./ssh-keygen -t ed25519  -C  username` 等
@@ -30,7 +27,7 @@ Host repo2.github.com
         IdentityFile ~/.ssh/blog-repo
 ```
 
-8. 分别修改 repo1、repo2 目录下 `.git/config` 中的url，参考如下
+8. 分别修改 repo1、repo2 目录下 `.git/config` 中的 url，参考如下
 
 ```c++
 //url = git@github.com:username/repo1.git

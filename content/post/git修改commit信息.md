@@ -2,7 +2,7 @@
 title: "Git 修改 commit 信息"
 date: 2021-07-20T15:19:14+08:00
 draft: false
-categories: [git]
+tags: [git]
 ---
 
 - 修改用户名/邮箱
@@ -18,5 +18,3 @@ categories: [git]
 
 ps:如果想修改第一次commit的信息，则步骤1中参数 commit id 改为 --root，即 git rebase -i --root
 ```
-
-<!--more-->
