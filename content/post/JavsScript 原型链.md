@@ -1,7 +1,6 @@
 ---
 title: "JavsScript 原型链"
-date: 2022-11-24T20:36:26+08:00
-lastmod: 2024-03-24T20:36:26+08:00
+date: 2022-10-24T20:36:26+08:00
 draft: false
 tags: [javascript, 原型链]
 ---
