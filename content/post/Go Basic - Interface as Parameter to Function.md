@@ -1,6 +1,6 @@
 ---
 title: "Go Basic - Interface as Parameter to Function"
-date: 2023-04-06T17:50:27+08:00
+date: 2023-03-01T17:50:27+08:00
 draft: false
 tags: [go]
 ---
