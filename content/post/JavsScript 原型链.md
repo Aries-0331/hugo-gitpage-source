@@ -2,7 +2,7 @@
 title: "JavsScript 原型链"
 date: 2022-10-24T20:36:26+08:00
 draft: false
-tags: [javascript, 原型链]
+tags: [javascript, prototype]
 ---
 
 每个 JavaScript 对象都有一个指向其他对象的链接，这个链接就是我们所说的“原型”。当我们试图访问一个对象的属性或方法时，如果它自身没有这个属性或方法，JavaScript 就会沿着这条原型链向上查找，直到找到为止，这就是原型链。

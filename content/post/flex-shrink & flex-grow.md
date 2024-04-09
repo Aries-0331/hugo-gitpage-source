@@ -2,7 +2,7 @@
 title: "Flex Shrink & Flex Grow"
 date: 2024-04-03T21:48:56+08:00
 draft: false
-categories: [css]
+categories: [css, frontend]
 ---
 
 # flex-shrink

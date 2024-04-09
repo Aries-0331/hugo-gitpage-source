@@ -2,7 +2,7 @@
 title: "在新环境中配置多 Git 仓库的 ssh 权限"
 date: 2020-11-11T16:21:12+08:00
 draft: false
-tags: [Git]
+tags: [git]
 ---
 
 # 配置多个 Git 仓库的 ssh 权限

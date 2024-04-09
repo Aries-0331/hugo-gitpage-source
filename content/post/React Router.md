@@ -2,7 +2,7 @@
 title: "React Router"
 date: 2022-05-06T14:31:14+08:00
 draft: false
-tags: [react, react-router, 前端]
+tags: [react, router, frontend]
 ---
 
 React Router 是一个用于React的路由库，它允许我们在React应用中实现客户端路由。这意味着用户可以在不重新加载页面的情况下导航到不同的URL，同时应用的状态会相应更新以反映新的位置。这是单页面应用（SPA）的一个核心特性，能够提供更快的用户体验和更流畅的页面切换效果。

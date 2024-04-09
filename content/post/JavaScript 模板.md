@@ -2,7 +2,7 @@
 title: "JavaScript 模板"
 date: 2022-12-30T11:06:43+08:00
 draft: false
-tags: [javascript, 模板, ES6]
+tags: [javascript, template, frontend]
 ---
 
 在JavaScript中，模板是指结合数据来生成 HTML 标记或其他文本的技术，模板通过声明式的标记语法允许你指定如何将对象属性插入到文档中。这种方法在动态内容渲染、页面或应用部分的即时更新等方面很有用。

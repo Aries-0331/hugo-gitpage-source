@@ -2,7 +2,7 @@
 title: "JavsScript 箭头函数"
 date: 2022-01-24T21:40:30+08:00
 draft: false
-tags: [javascript]
+tags: [javascript, frontend]
 ---
 
 ## 箭头函数

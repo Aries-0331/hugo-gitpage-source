@@ -2,7 +2,7 @@
 title: "虚拟Dom"
 date: 2022-01-07T14:19:18+08:00
 draft: false
-tags: [dom, 前端]
+tags: [dom, frontend]
 ---
 
 虚拟DOM（Virtual DOM）是一个编程概念，其中UI的表示形式保持在内存中，并通过某种库（如React）与“真实”的DOM（Document Object Model）同步。这个过程，通常称为调和（Reconciliation），使得开发者可以以一种声明式的方式操作DOM，即描述UI应该处于什么状态，而不是如何改变UI达到那个状态。
