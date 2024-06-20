@@ -1,9 +1,8 @@
 ---
 title: "JavsScript ES6"
 date: 2021-12-17T21:30:48+08:00
-lastmod: 2024-03-24T21:30:48+08:00
 draft: false
-tags: [javascript, es6]
+categories: [JavaScript]
 ---
 
 ES6（ECMAScript 2015 或 ECMAScript6）与 ES5 主要区别：

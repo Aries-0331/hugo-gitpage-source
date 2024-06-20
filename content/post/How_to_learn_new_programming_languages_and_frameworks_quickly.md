@@ -2,7 +2,7 @@
 title: "How to learn new programming languages and frameworks quickly"
 date: 2020-12-21T16:05:14+08:00
 draft: false
-tags: [languages]
+categories: [Notes]
 ---
 
 > An excerpt from [how-whatsapp-scaled-to-1-billion](https://www.quastor.org/p/how-whatsapp-scaled-to-1-billion)

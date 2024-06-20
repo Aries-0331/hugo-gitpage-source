@@ -2,7 +2,7 @@
 title: "Mastering ChatGPT：Crafting Effective Prompt"
 date: 2023-01-23T21:59:23+08:00
 draft: false
-tags: [gpt]
+categories: [Notes]
 ---
 
 Introduction: Engaging in conversations with AI models like ChatGPT can be an exciting and rewarding experience. However, achieving meaningful and accurate responses relies heavily on the quality of prompts provided. In this blog post, we will explore strategies for crafting excellent prompts that maximize the potential of ChatGPT and enhance the overall conversation. Let's dive in and unlock the power of effective prompts!

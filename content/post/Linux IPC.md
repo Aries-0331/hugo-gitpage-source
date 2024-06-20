@@ -2,7 +2,7 @@
 title: "Linux IPC"
 date: 2022-03-23T13:28:32+08:00
 draft: false
-tags: [linux, ipc]
+categories: [Linux]
 ---
 
 IPC（进程间通信），是 Linux 系统中不同进程间进行数据交换的机制。主要包括

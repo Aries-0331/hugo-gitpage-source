@@ -1,8 +1,8 @@
 ---
 title: "React 设计模式"
-date: 2024-01-11T14:55:46+08:00
+date: 2022-01-11T14:55:46+08:00
 draft: false
-tags: [react, 设计模式]
+categories: [React]
 ---
 
 常见的 React 设计模式：

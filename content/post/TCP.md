@@ -2,7 +2,7 @@
 title: "What happens when tcp listen to a port?"
 date: 2020-06-29T18:24:09+08:00
 draft: false
-tags: [tcp]
+categories: [TCP/IP]
 ---
 
 When reading the net/http code of golang, I was suddenly curious about the mechanism of tcp listen, then I googled and found this interesting Q&A - [What happens when we say "listen to a port"?](https://stackoverflow.com/questions/4530187/what-happens-when-we-say-listen-to-a-port) on StackOverflow.

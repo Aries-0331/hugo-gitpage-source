@@ -2,6 +2,7 @@
 title: "SVG 与 Canvas"
 date: 2023-03-29T14:38:32+08:00
 draft: false
+categories: [Web]
 ---
 
 SVG（Scalable Vector Graphics）和Canvas是两种主要的 Web 技术，用于在网页上绘制图形，但它们在使用方式、性能和适用场景上有所不同。

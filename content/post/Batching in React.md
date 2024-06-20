@@ -2,7 +2,7 @@
 title: "Batching in React"
 date: 2024-01-20T11:34:29+08:00
 draft: false
-tags: [React]
+categories: [React]
 ---
 
 # Batching in React.
