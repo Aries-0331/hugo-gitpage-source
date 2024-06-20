@@ -2,7 +2,7 @@
 title: "Go Package - gorilla mux"
 date: 2023-02-22T17:00:03+08:00
 draft: false
-tags: [go, gpt]
+categories: [Go]
 ---
 
 Gorilla/mux is a popular package in the Go ecosystem that simplifies routing and URL matching for HTTP services. It offers a rich set of features and allows developers to define custom routes, handle variables, and leverage middleware for enhanced functionality. With gorilla/mux, you can build scalable and maintainable web applications with ease.

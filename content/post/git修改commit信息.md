@@ -2,7 +2,7 @@
 title: "Git 修改 commit 信息"
 date: 2021-07-20T15:19:14+08:00
 draft: false
-tags: [git]
+categories: [Devtool]
 ---
 
 - 修改用户名/邮箱

@@ -2,7 +2,7 @@
 title: "Object.is in JavaScript"
 date: 2024-04-03T17:56:05+08:00
 draft: false
-categories: [javascript, frontend]
+categories: [JavaScript]
 ---
 
 `Object.is` is a method introduced in ECMAScript 2015 (ES6) that determines whether two values are the same value. It's a more precise comparison than the traditional `==` (loose equality) or `===` (strict equality) operators in JavaScript. `Object.is` aims to provide an accurate comparison algorithm, particularly useful for distinguishing between values like `+0` and `-0`, and for correctly identifying `NaN` values, which traditional comparisons cannot.

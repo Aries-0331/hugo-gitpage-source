@@ -1,8 +1,8 @@
 ---
 title: "HTTPS与HTTP"
-date: 2021-10-22T22:28:02+08:00
+date: 2020-10-22T22:28:02+08:00
 draft: false
-tags: [tls, https]
+categories: [HTTPS]
 ---
 
 > 概念上理清 HTTPS 与 HTTP 的区别。

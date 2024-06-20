@@ -2,7 +2,7 @@
 title: "Go Basic - Interface as Parameter to Function"
 date: 2023-03-01T17:50:27+08:00
 draft: false
-tags: [go, gpt]
+categories: [Go]
 ---
 
 > https://stackoverflow.com/questions/20314604/go-syntax-and-interface-as-parameter-to-function

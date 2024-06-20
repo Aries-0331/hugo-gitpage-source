@@ -3,7 +3,7 @@ title: "JavaScript 代码拆分"
 date: 2022-03-25T09:51:58+08:00
 lastmod: 2024-03-25T09:51:58+08:00
 draft: true
-tags: [javascript, frontend, performance]
+categories: [Performance]
 ---
 
 代码拆分（Code Splitting）是一种优化 Web 应用的技术，其基本原理是利用现代Web构建工具（如Webpack、Rollup、Parcel等）的动态导入功能，将应用代码分解成多个独立的包或模块。当用户访问应用时，只加载必要的代码，其余代码则在需要时才按需加载。这样做可以减少首次加载所需时间，提高应用性能，改善用户体验。

@@ -2,7 +2,7 @@
 title: "React 状态管理常用策略"
 date: 2023-01-09T12:01:36+08:00
 draft: false
-tags: [react, state, frontend]
+categories: [React]
 ---
 
 在 React 中，状态（State）是组件内部的数据结构，用于记录从挂载到卸载期间，可能会发生变化的数据。状态的更新会触发组件的重新渲染，因此合理地管理状态非常重要。

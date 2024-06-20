@@ -2,7 +2,7 @@
 title: "CSS Units"
 date: 2023-06-19T11:07:43+08:00
 draft: false
-tags: [css, frontend]
+categories: [CSS]
 ---
 
 # Recommendations

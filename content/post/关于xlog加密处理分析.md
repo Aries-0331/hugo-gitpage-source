@@ -2,7 +2,7 @@
 title: "关于xlog加密处理分析"
 date: 2021-05-28T22:25:57+08:00
 draft: false
-tags: [cryptography, xlog, android]
+categories: [Security]
 ---
 
 xlog 使用微型加密算法（TEA，Tiny Encryption Algorithm）对日志数据进行加密，使用 ECDH 密钥交换算法进行对称密钥的协商，对称密钥以数组形式存储在栈区，声明为 `LogCrypt` 类的私有字段。

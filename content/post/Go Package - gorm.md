@@ -2,7 +2,7 @@
 title: "Go Package - gorm"
 date: 2023-03-12T22:15:12+08:00
 draft: false
-tags: [go, gpt]
+categories: [Go]
 ---
 
 GORM is a popular Object-Relational Mapping (ORM) package for Go, designed to simplify database operations and improve developer productivity. It provides a robust and expressive API for interacting with various databases, including PostgreSQL, MySQL, SQLite, and more. With GORM, you can focus on your application's logic while it handles the complexities of database management.

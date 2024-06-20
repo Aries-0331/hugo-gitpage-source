@@ -2,7 +2,7 @@
 title: "TLS"
 date: 2020-02-02T22:24:45+08:00
 draft: false
-tags: [tls, cryptography]
+categories: [Security]
 ---
 
 ## TLS 协议的设计目标

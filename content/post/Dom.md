@@ -3,7 +3,7 @@ title: "Dom"
 date: 2021-11-25T14:14:09+08:00
 lastmod: 2024-03-25T14:14:09+08:00
 draft: false
-tags: [dom, frontend]
+categories: [HTML]
 ---
 
 DOM（文档对象模型 Document Object Model）是一个跨平台和语言独立的接口，允许程序和脚本动态地访问和更新文档的内容、结构和样式。DOM将HTML和XML文档呈现为树结构，其中每个节点代表文档中的一部分，例如文本、注释、元素等。

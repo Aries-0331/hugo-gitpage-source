@@ -2,7 +2,7 @@
 title: "JavsScript 高阶函数"
 date: 2022-04-24T21:14:54+08:00
 draft: false
-tags: [javascript, frontend, functional]
+categories: [JavaScript]
 ---
 
 在 JavaScript 中，如果一个函数能接收一个或多个函数作为参数，或返回另一个函数，那么该函数被称为**高阶函数**。

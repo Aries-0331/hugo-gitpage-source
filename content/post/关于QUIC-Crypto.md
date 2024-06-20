@@ -2,7 +2,7 @@
 title: "关于QUIC Crypto"
 date: 2022-07-04T17:13:59+08:00
 draft: false
-tags: [cryptography, quic]
+categories: [Security]
 ---
 
 # 简要介绍

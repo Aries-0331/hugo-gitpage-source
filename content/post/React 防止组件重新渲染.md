@@ -2,7 +2,7 @@
 title: "React 防止组件重新渲染"
 date: 2023-05-03T18:33:42+08:00
 draft: false
-tags: [react, performance, frontend]
+categories: [React, Performance]
 ---
 
 在React中，组件的重新渲染通常由状态（state）或属性（props）的变化触发。虽然React通过虚拟DOM和高效的对比算法（diffing algorithm）优化了性能，但在某些情况下，不必要的重新渲染仍然会导致性能问题。因此，防止不必要的重新渲染是优化React应用性能的关键策略之一。以下是几种常用的方法：
